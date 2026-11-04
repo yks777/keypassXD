@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "dev.keypassxd",
+  "name": "keypassXD",
+  "version": "0.5.2",
+  "author": "keypassXD contributors",
+  "license": "MIT",
+  "description": "Gerenciador de senhas KDBX 100% local (Argon2id) com cadeado no topbar. Sem conta, sem rede em uso, sem KeePassXC instalado.",
+  "kinds": ["service", "bar-widget"],
+  "keepLoaded": true,
+  "entryPoints": {"service": "Service.qml", "barWidget": "BarWidget.qml"},
+  "barWidget": {
+    "displayName": "keypassXD",
+    "category": "Utilities",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
